@@ -55,6 +55,18 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Testimonials Sections */}
+        <section className="py-20 bg-white text-black">
+  <h2 className="text-3xl font-semibold text-center mb-8">
+    What Clients Say
+  </h2>
+  <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+    <blockquote>“Amazing attention to detail — transformed our home.” — Client A</blockquote>
+    <blockquote>“Professional and creative — exceeded expectations.” — Client B</blockquote>
+  </div>
+</section>
+
+
         {/* Services Section */}
         <section
           id="services"
