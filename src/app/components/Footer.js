@@ -69,6 +69,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t pt-8 text-center text-xs text-gray-400">
           © {new Date().getFullYear()} Board Brush & Lights.
+          © {new Date().getFullYear()} Creatively Imperfect.
           All rights reserved.
         </div>
 
