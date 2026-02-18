@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-white text-black border-t py-20 px-6">
@@ -7,10 +9,18 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-16">
 
           {/* Brand */}
-          <div>
-            <h3 className="text-lg font-semibold tracking-tight mb-4">
-              Board Brush & Lights
-            </h3>
+          <div className="flex flex-col items-start">
+            {/* Logo */}
+            <div className="mb-4">
+              <Image
+                src="/logo.png" 
+                alt="Board Brush & Lights Logo"
+                width={180}                      
+                height={60}
+                className="object-contain"
+              />
+            </div>
+
             <p className="text-gray-500 text-sm leading-relaxed">
               Luxury interior design studio crafting elegant residential
               and commercial spaces.
@@ -68,7 +78,7 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="border-t pt-8 text-center text-xs text-gray-400">
-          © {new Date().getFullYear()} Creatively Imperfect.
+          © {new Date().getFullYear()} Board Brush & Lights.
           All rights reserved.
         </div>
 
