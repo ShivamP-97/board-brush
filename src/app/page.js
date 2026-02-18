@@ -17,7 +17,7 @@ export default function Home() {
           className="h-screen bg-cover bg-center flex items-center justify-center text-center px-6"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6')",
+              "url('/background_img.jpg')",
           }}
         >
           <div className="bg-black/50 p-10 rounded-lg">
