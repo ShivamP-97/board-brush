@@ -34,26 +34,67 @@ export default function Home() {
         </section>
 
         {/* Projects Section */}
-        <section id="projects" className="bg-[#F8F5F0] text-black py-20 px-6">
-          <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-12">Our Projects</h2>
+<section id="projects" className="bg-[#F8F5F0] text-black py-20 px-6">
+  <div className="max-w-6xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-12">Our Projects</h2>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              <img
-                src="/Project-1.jpg"
-                className="rounded-lg shadow-md"
-              />
-              <img
-                src="/Project-2.jpg"
-                className="rounded-lg shadow-md"
-              />
-              <img
-                src="/Project-3.jpg"
-                className="rounded-lg shadow-md"
-              />
-            </div>
-          </div>
-        </section>
+    <div className="grid md:grid-cols-3 gap-8">
+      {/* Project 1 */}
+      <a
+        href="#"
+        className="group relative block rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+      >
+        <img
+          src="/Project-1.jpg"
+          alt="Inaaya Project"
+          className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+          <h3 className="text-xl font-bold text-white">Inaaya Project</h3>
+          <p className="text-white mt-2 text-sm">
+            Creative board designs for modern interiors.
+          </p>
+        </div>
+      </a>
+
+      {/* Project 2 */}
+      <a
+        href="#"
+        className="group relative block rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+      >
+        <img
+          src="/Project-2.jpg"
+          alt="Shalimar Project"
+          className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+          <h3 className="text-xl font-bold text-white">Shalimar Project</h3>
+          <p className="text-white mt-2 text-sm">
+            Stunning interactive canvas experience.
+          </p>
+        </div>
+      </a>
+
+      {/* Project 3 */}
+      <a
+        href="#"
+        className="group relative block rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+      >
+        <img
+          src="/Project-3.jpg"
+          alt="Another Project"
+          className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+          <h3 className="text-xl font-bold text-white">Another Project</h3>
+          <p className="text-white mt-2 text-sm">
+            Description for this project goes here.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
         {/* Testimonials Sections */}
         <section className="py-20 bg-white text-black">
