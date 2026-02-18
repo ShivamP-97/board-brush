@@ -82,13 +82,13 @@ export default function Home() {
       >
         <img
           src="/Project-3.jpg"
-          alt="Another Project"
+          alt="Villa Project"
           className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
-          <h3 className="text-xl font-bold text-white">Another Project</h3>
+          <h3 className="text-xl font-bold text-white">Villa Project</h3>
           <p className="text-white mt-2 text-sm">
-            Description for this project goes here.
+            Specially curated villa designs and layouts.
           </p>
         </div>
       </a>
