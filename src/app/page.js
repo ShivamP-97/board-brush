@@ -156,7 +156,7 @@ export default function Home() {
     rel="noopener noreferrer"
   >
     <img
-      src="/insta1.jpg"
+      src="/image1.jpg"
       alt="Board Brush & Lights Instagram Post 1"
       className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
     />
