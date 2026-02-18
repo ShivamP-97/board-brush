@@ -143,42 +143,59 @@ export default function Home() {
     </div>
 
     {/* INSTAGRAM GRID */}
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-      viewport={{ once: true }}
-      className="grid md:grid-cols-3 gap-6"
-    >
-      <a href="https://instagram.com/YOUR_USERNAME" target="_blank">
-        <img
-          src="/insta1.jpg"
-          className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
-        />
-      </a>
+<motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 1 }}
+  viewport={{ once: true }}
+  className="grid md:grid-cols-3 gap-6"
+>
+  <a
+    href="https://www.instagram.com/board_brush.lights/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="/insta1.jpg"
+      alt="Board Brush & Lights Instagram Post 1"
+      className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
+    />
+  </a>
 
-      <a href="https://instagram.com/YOUR_USERNAME" target="_blank">
-        <img
-          src="/insta2.jpg"
-          className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
-        />
-      </a>
+  <a
+    href="https://www.instagram.com/board_brush.lights/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="/insta2.jpg"
+      alt="Board Brush & Lights Instagram Post 2"
+      className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
+    />
+  </a>
 
-      <a href="https://instagram.com/YOUR_USERNAME" target="_blank">
-        <img
-          src="/insta3.jpg"
-          className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
-        />
-      </a>
-    </motion.div>
+  <a
+    href="https://www.instagram.com/board_brush.lights/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="/insta3.jpg"
+      alt="Board Brush & Lights Instagram Post 3"
+      className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
+    />
+  </a>
+</motion.div>
 
-    <a
-      href="https://instagram.com/YOUR_USERNAME"
-      target="_blank"
-      className="inline-block mt-10 bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-6 py-3 rounded-md hover:opacity-90 transition"
-    >
-      Follow Us on Instagram
-    </a>
+<a
+  href="https://www.instagram.com/board_brush.lights/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-10 border border-black text-black px-6 py-3 rounded-full hover:bg-black hover:text-white transition"
+>
+  Follow Us on Instagram
+</a>
+
 
   </div>
 </section>
