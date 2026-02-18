@@ -117,30 +117,34 @@ export default function Home() {
     </p>
 
     {/* YOUTUBE FEATURED VIDEO */}
-    <div className="mb-20">
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-        className="aspect-video max-w-4xl mx-auto rounded-xl overflow-hidden shadow-2xl"
-      >
-        <iframe
-          className="w-full h-full"
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-          title="Board Brush & Lights YouTube"
-          allowFullScreen
-        ></iframe>
-      </motion.div>
+<div className="mb-20">
+  <motion.div
+    initial={{ opacity: 0, scale: 0.95 }}
+    whileInView={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true }}
+    className="aspect-video max-w-4xl mx-auto rounded-xl overflow-hidden shadow-2xl"
+  >
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/-jtnlrT8CB8?rel=0&modestbranding=1"
+      title="Board Brush & Lights YouTube"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </motion.div>
 
-      <a
-        href="https://youtube.com/YOUR_CHANNEL"
-        target="_blank"
-        className="inline-block mt-6 bg-red-600 text-white px-6 py-3 rounded-md hover:opacity-90 transition"
-      >
-        Visit Our YouTube Channel
-      </a>
-    </div>
+  <a
+    href="https://www.youtube.com/@boardbrushandlights"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block mt-6 border border-black text-black px-6 py-3 rounded-full hover:bg-black hover:text-white transition"
+  >
+    Visit Our YouTube Channel
+  </a>
+</div>
+
 
     {/* INSTAGRAM GRID */}
     <motion.div
