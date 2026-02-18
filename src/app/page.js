@@ -40,7 +40,7 @@ export default function Home() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                src="/Project-1.jpg"
                 className="rounded-lg shadow-md"
               />
               <img
