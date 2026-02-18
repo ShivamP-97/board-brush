@@ -44,11 +44,11 @@ export default function Home() {
                 className="rounded-lg shadow-md"
               />
               <img
-                src="https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+                src="/Project-2.jpg"
                 className="rounded-lg shadow-md"
               />
               <img
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+                src="/Project-3.jpg"
                 className="rounded-lg shadow-md"
               />
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
     rel="noopener noreferrer"
   >
     <img
-      src="/insta2.jpg"
+      src="/image2.jpg"
       alt="Board Brush & Lights Instagram Post 2"
       className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
     />
@@ -180,7 +180,7 @@ export default function Home() {
     rel="noopener noreferrer"
   >
     <img
-      src="/insta3.jpg"
+      src="/image3.jpg"
       alt="Board Brush & Lights Instagram Post 3"
       className="rounded-xl shadow-lg hover:scale-105 transition duration-300"
     />
