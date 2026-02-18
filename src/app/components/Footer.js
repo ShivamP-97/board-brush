@@ -16,7 +16,7 @@ export default function Footer() {
                 src="/logo.png" 
                 alt="Board Brush & Lights Logo"
                 width={180}                      
-                height={60}
+                height={20}
                 className="object-contain"
               />
             </div>
