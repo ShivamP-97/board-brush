@@ -127,7 +127,7 @@ export default function Home() {
       >
         <iframe
           className="w-full h-full"
-          src="https://www.youtube.com/watch?v=-jtnlrT8CB8&t=1s"
+          src="https://www.youtube.com/embed/-jtnlrT8CB8"
           title="Board Brush & Lights YouTube"
           allowFullScreen
         ></iframe>
